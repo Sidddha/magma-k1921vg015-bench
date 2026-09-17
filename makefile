@@ -32,7 +32,7 @@ LINKER_PATH   = ./platform/ldscripts
 
 OPENOCD_PATH      ?= ../../toolchain/xpack-openocd-k1921vk-0.12.0-k1921vk/bin/openocd
 OPENOCD_INIT_PATH ?= ./init
-OPENOCD_IFACE_CFG ?= init/onboard_ftdi.cfg
+OPENOCD_IFACE_CFG ?= init/jlink.cfg
 FLASH_IMAGE       ?= $(BUILD_PATH)/$(TARGET_NAME).elf
 
 # ==============================================================================
